@@ -1,5 +1,7 @@
 # 🎓 AI STUDY BUDDY
 
+- **Live Demo** : https://ai-study-buddy-01.streamlit.app/
+
 AI Study Buddy is a **professional, data-driven academic support system** designed to assist students in improving their academic performance through **predictive analytics and personalized AI guidance**. The system integrates machine learning–based exam score prediction with a large language model (LLM) accessed via the Hugging Face API to deliver study recommendations, lifestyle insights, and motivational support.
 
 ## 📌 Project Overview
@@ -73,6 +75,3 @@ AI-Study-Buddy/
    ```bash
    streamlit run app.py
    ```
-## 🌐 Deployment
-- **Platform** : Streamlit
-- **URL** : https://ai-study-buddy-01.streamlit.app/
