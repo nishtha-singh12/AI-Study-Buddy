@@ -73,3 +73,6 @@ AI-Study-Buddy/
    ```bash
    streamlit run app.py
    ```
+## 🌐 Deployment
+- **Platform** : Streamlit
+- **URL** : https://ai-study-buddy-01.streamlit.app/
