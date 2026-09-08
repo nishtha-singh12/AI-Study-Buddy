@@ -2,7 +2,7 @@
 
 - **Live Demo** : https://ai-study-buddy-01.streamlit.app/
 
-AI Study Buddy is a **professional, data-driven academic support system** designed to assist students in improving their academic performance through **predictive analytics and personalized AI guidance**. The system integrates machine learning–based exam score prediction with a large language model (LLM) accessed via the Hugging Face API to deliver study recommendations, lifestyle insights, and motivational support.
+AI Study Buddy is a **professional, data-driven academic support system** designed to assist students in improving their academic performance through **predictive analytics and personalized AI guidance**. The system integrates machine learning–based exam score prediction with a large language model (LLM) accessed via the Groq API to deliver study recommendations, lifestyle insights, and motivational support.
 
 ## 📌 Project Overview
 
@@ -17,7 +17,7 @@ The platform uses student data—including gender, study hours, attendance, ment
 - **Provide Personalized Study Plans:** Generate personalized study plan and daily time table according to student's predicted score.
 - **Offer Motivational Guidance:** Give tips and encouragement to help students improve their study habits and stay motivated.
 - **Enable Daily Task Management:** Allow students to plan, write, and track their daily tasks effectively.
-- **AI Student Companion:** A personalized AI chatbot powered by Qwen/Qwen2.5-7B-Instruct via Hugging Face API, providing academic and lifestyle guidance based on the student’s profile.
+- **AI Student Companion:** A personalized AI chatbot powered by Qwen/Qwen3.6-27B via Groq API, providing academic and lifestyle guidance based on the student’s profile.
 
 
 ## 🛠️ Tools & Technologies Used
@@ -30,8 +30,8 @@ The platform uses student data—including gender, study hours, attendance, ment
 | Visualization              | Matplotlib, Seaborn                                                                |
 | Machine Learning Models    | Linear Regression, Decision Tree Regressor, Random Forest Regressor (Scikit-learn) |
 | Model Persistence          | Joblib, Pickle (for saving/loading models)                                         |
-| AI Assistant (Chatbot)     | Qwen/Qwen2.5-7B-Instruct via Hugging Face API                                      |
-| API Requests               | `requests` library for Hugging Face API calls                                      |
+| AI Assistant (Chatbot)     | Qwen/Qwen3.6-27B via Groq API                                                      |
+| API Requests               | `requests` library for Groq API calls                                              |
 | Web Framework              | Streamlit                                                                          |
 
 
@@ -41,7 +41,7 @@ The platform uses student data—including gender, study hours, attendance, ment
 2. The system processes the data and predicts exam performance using a trained ML model.
 3. Motivational feedback and a lifestyle impact summary highlight factors affecting performance.
 4. A personalized study plan and daily timetable are generated based on the predicted score.
-5. AI Study Companion chatbot (Tab2) provides guidance using the student’s profile and prediction, powered by a large language model (Qwen/Qwen2.5-7B-Instruct) accessed via the Hugging Face API.
+5. AI Study Companion chatbot (Tab2) provides guidance using the student’s profile and prediction, powered by a large language model (Qwen/Qwen3.6-27B) accessed via the Groq API.
 
 
 ## 📂 Project Structure
